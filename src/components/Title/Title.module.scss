@@ -1,0 +1,44 @@
+.title {
+  width: 100%;
+  max-width: 1138px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title p {
+  width: 1138;
+  height: 45px;
+  font-size: 30px;
+  color: var(--Primary-Color);
+  font-weight: 700;
+  position: relative;
+  margin: 0;
+}
+
+.title[data-strikes=true] p::before {
+  content: "";
+  display: block;
+  width: 380px;
+  height: 1px;
+  background: #dedede;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+.title[data-strikes=true] p::after {
+  content: "";
+  display: block;
+  width: 380px;
+  height: 1px;
+  background: #dedede;
+  left: 0px;
+  top: 50%;
+  position: absolute;
+}
+
+.seeAll {
+  margin-block: -16px;
+}

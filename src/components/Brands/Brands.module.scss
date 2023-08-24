@@ -1,0 +1,26 @@
+.brands {
+    width: 100%;
+    max-width: 1264px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: calc(60px - 16px);
+  }
+  
+  .brand {
+    width: 211px;
+    height: 211px;
+    border-radius: 50%;
+    -webkit-box-shadow: -1px -1px 8px 3px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: -1px -1px 8px 3px rgba(0, 0, 0, 0.13);
+    box-shadow: -1px -1px 8px 3px rgba(0, 0, 0, 0.13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .brand img {
+    width: 172px;
+    height: 63px;
+  }

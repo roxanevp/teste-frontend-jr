@@ -1,0 +1,55 @@
+.productsBanners {
+  width: 100%;
+  max-width: 1264px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: calc(88px - 16px);
+  margin-bottom: calc(78px - 16px);
+}
+
+.productBanner {
+  width: calc(589px - 80px);
+  height: calc(284px - 80px);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("/assets/image-45.webp");
+  background-size: cover;
+  border-radius: 20px;
+  color: var(--Secondary-Color);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.productBanner h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.productBanner p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  max-width: 180px;
+}
+
+.productBanner button {
+  width: 131px;
+  height: 48px;
+  background-color: var(--Primary-Color);
+  border-radius: 10px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--Secondary-Color);
+  margin-top: 24px;
+  cursor: pointer;
+}

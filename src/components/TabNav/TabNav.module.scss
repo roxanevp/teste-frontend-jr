@@ -1,0 +1,24 @@
+.tabNav {
+  width: 100%;
+  max-width: 1264px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.tabNav p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--Tertiary-Text-Color);
+  border: 1px solid #bdbdbd;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.tabNav b {
+  color: var(--Primary-Color);
+}

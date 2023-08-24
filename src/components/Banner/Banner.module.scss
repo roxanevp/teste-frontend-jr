@@ -1,0 +1,41 @@
+.banner {
+  width: 100%;
+  height: 395px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("/assets/Rectangle-250.webp");
+  background-size: cover;
+  margin-top: -16px;
+}
+
+.banner::after {
+  filter: blur(1px);
+}
+
+.imageCenterInfo {
+  max-width: 100%;
+  margin-left: 86px;
+  color: var(--Secondary-Color);
+}
+
+.imageCenterInfo p {
+  font-size: 48px;
+  font-weight: 500;
+  max-width: 100%;
+}
+
+.imageCenterInfo button {
+  width: 227px;
+  height: 60px;
+  background-color: var(--Primary-Color);
+  border-radius: 5px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--Secondary-Color);
+  margin-top: -19px;
+  cursor: pointer;
+}
